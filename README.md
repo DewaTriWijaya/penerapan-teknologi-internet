@@ -14,7 +14,7 @@ Trip Planning adalah untuk melakukan rencana trip bagi para traveling untuk memu
 ### 10122139 - Faris
 
 ## Planning
-Dewa = Project Management
-Salman & Radit = Rencana Perjalanan (itenary.md)
-Gumilar = Rencana Transportasi dan akomodasi (transport_logistic.md)
-Faris = Rencana Anggaran terperinci (budget.md)
+### Dewa = Project Management
+### Salman & Radit = Rencana Perjalanan (itenary.md)
+### Gumilar = Rencana Transportasi dan akomodasi (transport_logistic.md)
+### Faris = Rencana Anggaran terperinci (budget.md)
