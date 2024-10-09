@@ -2,9 +2,9 @@
 
 ## Deskripsi Project
 Trip Planning adalah untuk melakukan rencana trip bagi para traveling untuk memudahkan para traveling untuk jalan-jalan setiap kota. trip planning ini memudahkan untuk travel dalam merencanakan mulai dari:
-### Rencana Perjalanan
-### Rencana Transportasi dan akomodasi
-### Rencana Anggaran terperinci
+### 1. Rencana Perjalanan
+### 2. Rencana Transportasi dan akomodasi
+### 3. Rencana Anggaran terperinci
 
 ## Anggota Tim
 10122144 - Dewa Tri Wijaya
