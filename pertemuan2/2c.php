@@ -38,6 +38,54 @@ $nama='';
 $harga=0;
 $jumlah=$_POST['jumlah'];
 $kode=$_POST['kode'];
+        <tr>
+          <td>Status</td>
+          <td>
+            <input type="radio" name="status_member" id="member" value="member" />
+          Member
+         <br />
+            <input type="radio" name="status_member" id="bukan_member" value="bukan_member" />
+          Bukan Member</td>
+        </tr>
+        <tr>
+          <td>Kota Kirim</td>
+          <td>
+            <select name="kota_kirim" id="Kota">
+              <option>-- Silahkan Pilih Kota -- </option>
+              <option value="Jakarta">Jakarta</option>
+              <option value="Bandung">Bandung</option>
+              <option value="Padang">Padang</option>
+              <option value="Yogyakarta">Yogyakarta</option>            
+            </select>
+          </td>
+        </tr>
+      </table>
+<p>
+          <center><input type="submit" name="Hitung" id="Hitung" value="Hitung" />
+          <input type="reset" name="Reset" id="Reset" value="Reset" /></center>
+  </p>
+</form>
+
+
+<?php
+error_reporting(0);
+
+$jumlah=0;
+$kode="";
+$nama="";
+$harga=0;
+$ongkos_kirim=0;
+$diskon_status=0;
+$total_diskon=0;
+$jumlah=$_POST[jumlah];
+$kode=$_POST[kode];
+$kota_kirim=$_POST[kota_kirim];
+$status_member=$_POST[status_member];
+$submit = $_POST['Hitung'];
+?>
+<?php if($submit) 
+	//echo "<script>alert('Data OK')</script>";
+{
 
 if ($kode=="A01"){
 	$nama="Speaker";
@@ -60,6 +108,7 @@ if ($kode=="D04"){
 }
 
 $subtotal=$harga*$jumlah;
+  
 if ($subtotal>=100000){
 	$diskon=0.15*$subtotal;
 }
@@ -74,6 +123,36 @@ if ($subtotal>=25000){
 else
 	$diskon=0;
 $totalbayar=$subtotal-$diskon;
+	
+if ($status_member=="member"){
+	$diskon_status=0.1*$subtotal;
+	$ket_status="Member";
+}
+else 
+if ($status_member=="bukan_member"){
+	$diskon_status=0;
+	$ket_status="Bukan Member";
+	}
+	
+if ($kota_kirim=="Jakarta"){
+	$ongkos_kirim=10000;
+}
+else
+if ($kota_kirim=="Bandung"){
+	$ongkos_kirim=12500;
+}
+else
+if ($kota_kirim=="Padang"){
+	$ongkos_kirim=30000;
+}
+else
+if ($kota_kirim=="Yogyakarta"){
+	$ongkos_kirim=20000;
+}
+
+$total_diskon=$diskon+$diskon_status;
+
+$totalbayar=$subtotal-$total_diskon+$ongkos_kirim;
 ?>    
 
 </p>
@@ -95,16 +174,20 @@ $totalbayar=$subtotal-$diskon;
     <td align="left">Sub Total</td>
     <td><div align="right">Rp. <?php echo number_format($subtotal,0,",",".");?>;</div></td>
   </tr>
+
   <tr>
     <td align="left">Diskon</td>
     <td><div align="right">Rp. <?php echo number_format($diskon,0,",",".");?>;</div></td>
   </tr>
+
   <tr>
     <td align="left">Total Bayar</td>
     <td><div align="right">Rp. <?php echo number_format($totalbayar,0,",",".");?>;</div></td>
   </tr>
 </table>
+
 </center>
 <p>&nbsp;</p>
 </body>
 </html>
+<?php } ?>
