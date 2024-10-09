@@ -1,3 +1,10 @@
-1. Budget sewa bus travel: Rp. 1.800.000 <br>
-2. Budget hotel 1 kamar 1 malam dan makan siang Rp. 1.000.000
-3. Budget wisata malang night
+1. Budget sewa bus travel untuk 1 hari/24 jam = Rp. 1.800.000 <br>
+2. Budget hotel grand mercure 1 kamar untuk 5 orang 1 malam + makan siang = Rp. 1.000.000
+3. Budget wisata hawai waterpark Rp. 80.000 x 5 = Rp. 400.000
+4. Budget wisata museum angkut Rp. 105.000 x 5 = Rp. 525.000
+5. Budget wisata malang night paradise Rp. 85.000 x 5 = Rp. 425.000
+6. Budget makan malam Rp. 50.000 x 5 = Rp. 250.000
+7. Budget wisata kampung lampion Rp. 10.000 x 5 = Rp. 50.000
+8. Budget wisata bromo Rp. 30.000 x 5 = Rp. 150.000
+9. Budget oleh-oleh di Pia cap mangkok Rp. 20.000 x 5 = Rp. 100.000
+10. Total budget keliling Malang beserta transport dan akomodasi = Rp. 4.700.000
