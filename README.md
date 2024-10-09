@@ -7,11 +7,11 @@ Trip Planning adalah untuk melakukan rencana trip bagi para traveling untuk memu
 ### 3. Rencana Anggaran terperinci
 
 ## Anggota Tim
-10122144 - Dewa Tri Wijaya
-10122145 - Salman Faris Alhaitami
-10122119 - Raditya Nalendra Utomo
-10122155 - Gumilar 
-10122139 - Faris
+### 10122144 - Dewa Tri Wijaya
+###10122145 - Salman Faris Alhaitami
+### 10122119 - Raditya Nalendra Utomo
+### 10122155 - Gumilar 
+### 10122139 - Faris
 
 ## Planning
 Dewa = Project Management
