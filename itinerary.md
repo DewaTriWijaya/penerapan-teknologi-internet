@@ -1,4 +1,4 @@
-1.Kumpul di bandara abdurahman saleh jam 8.00 WIB<br>
+1.Menuju bandara abdurahman saleh jam 6.00 WIB<br>
 2.Menuju Hotel grand mercure Malang Mirama Jam 8.30 WIB<br>
 3.Menuju Hawai WaterPark Jam 12.00 WIB<br>
 4.Menuju Museum Angkut jam 16.00 WIB<br>
